@@ -1,0 +1,131 @@
+
+
+
+.container-fluid{
+    background-image: url(/assets/img/backgrounds/footer1.svg);
+       background-size: cover;
+
+       width: 100%;
+       background-repeat: no-repeat;
+.selfend{
+    align-self: flex-end;
+}
+
+     
+ .button{
+     width: 200px ;
+     height:42px ;
+     text-align: center;
+ }
+
+         
+
+        a{
+        color:$white;
+        }
+        h2{
+            color: $primary-100   ; 
+
+        }
+        .first{
+            margin-bottom: 20px;
+        }
+        .img-fluid{
+            margin-bottom:35.2px;
+            width:270px;
+            
+        }
+        .flax-end{
+
+            align-self: flex-end;
+        }
+
+
+        .flex-container{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            height: 200px;
+            width: 100%;
+            display: flex;
+
+        }
+        .flex-start{
+            align-self: flex-start;
+        }
+        .footer-big{
+            margin-bottom: 90.03px;
+            padding: 290px 50px 0px 99px ;
+        }
+
+     .footer-widget {
+            margin-bottom:40px
+           }
+           .med{
+               color: $white;
+               line-height: 34px;
+               display: flex;
+               align-items: center;
+               text-align: center;   
+           }
+           .row{
+               max-width: -250px;
+               max-height: -25px;
+           }
+           .small{
+               color:$white;
+           }
+           .footer-menu ul li  {
+            font-size:15px;
+            line-height:32px;
+            -webkit-transition:.3s;
+            -o-transition:.3s;
+            transition:.3s
+           }
+
+
+
+           ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0
+        }
+        
+
+        .card {
+            padding: 2% 7%
+        }
+        
+        .social>i {
+            padding: 1%;
+            font-size: 15px
+        }
+        
+        .social>i:hover {
+            color: #957bda;
+            cursor: pointer
+        }
+        
+        .policy>div {
+            padding: 4px
+        }
+        
+        .heading {
+            font-family: 'Titillium Web', sans-serif;
+          
+        }
+        
+   @media (max-width:991px) {
+    .footer-menu {
+     padding-left:0
+    }
+   }
+       
+          
+
+}
+   
+
+  
+  
+  

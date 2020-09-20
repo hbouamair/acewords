@@ -1,0 +1,62 @@
+@mixin for-size($size) {
+	@if $size == phone-only {
+		@media (max-width: $breakpoint-sm) {
+			@content;
+		}
+	} @else if $size == tablet-portrait-down {
+		@media (max-width: $breakpoint-md) {
+			@content;
+		}
+	} @else if $size == tablet-landscape-down {
+		@media (max-width: $breakpoint-lg) {
+			@content;
+		}
+	} @else if $size == desktop-down {
+		@media (max-width: $breakpoint-xl) {
+			@content;
+		}
+	} @else if $size == desktop-up {
+		@media (min-width: $breakpoint-xl) {
+			@content;
+		}
+	}
+}
+
+@mixin flex($justify, $align) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+}
+
+@mixin font-source-sans($font: false, $size: false, $color: false, $weight: false, $lh: false) {
+	@if $font{font-family: $font;}
+	@if $size {font-size: $size;}
+	@if $color {color: $color;}
+	@if $weight {font-weight: $weight;}
+	@if $lh{line-height: $lh;}
+}
+
+@mixin input-placeholder {
+	&.placeholder {
+		@content;
+	}
+	&:-moz-placeholder {
+		@content;
+	}
+	&::-moz-placeholder {
+		@content;
+	}
+	&:-ms-input-placeholder {
+		@content;
+	}
+	&::-webkit-input-placeholder {
+		@content;
+	}
+}
+
+@mixin font-face($family, $ttf-path) {
+	@font-face {
+		font-family: $family;
+		src: url($ttf-path) format("truetype");
+	}
+}

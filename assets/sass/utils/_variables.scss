@@ -1,0 +1,57 @@
+// Primary Color
+$primary-100: #E57A7A;
+$primary-200: #EFA29B;
+$primary-300: #F7BDB1;
+$primary-400: #FCD9CD;
+$primary-500: #FDEEE5;
+
+// Secondary
+$secondary-100: #424141;
+$secondary-200: #8D8C8B;
+$secondary-300: #C6C4C4;
+$secondary-400: #ECEBEA;
+$secondary-500: #F5F5F4;
+
+// Black & White
+$black: #000000;
+$white: #ffffff;
+
+//Borders
+$border-1: 1px solid;
+
+$border-radius-0: 4px;
+$border-radius-1: 5px;
+$border-radius-2: 15px;
+$border-radius-3: 55px;
+
+//Shadows
+$shadow-1: 0px 3px 75px rgba(66, 65, 65, 0.08);
+$shadow-2: 0px 3px 35px rgba(0, 0, 0, 0.1);
+$shadow-3: 1px 5px 65px rgba(198, 196, 196, 0.25);
+$shadow-4: 0px 3px 35px rgba(66, 65, 65, 0.1);
+
+//Shadows Hover
+$shadow-hover-1: 0px 3px 55px rgba(66, 65, 65, 0.15);
+
+//Font-Sizes
+$size-xx-small: 14px;
+$size-x-small: 15px;
+$size-small: 16px;
+$size-regular: 18px;
+$size-medium: 20px;
+$size-larg: 24px;
+$size-x-larg: 32px;
+$size-xx-larg: 45px;
+
+//Font-Family
+$primary-light: "Montserrat Light";
+$primary-regular: "Montserrat Regular";
+$primary-medium: "Montserrat Medium";
+$primary-SemiBold: "Montserrat Semibold";
+$primary-bold: "Montserrat Bold";
+
+// Breakpoint
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;

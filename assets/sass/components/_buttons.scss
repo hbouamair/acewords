@@ -1,0 +1,28 @@
+.button{
+    font-family: $primary-SemiBold;
+    color: $white;
+    font-size: $size-xx-small;
+    font-weight: 600;
+    line-height: 17px;
+    border-radius: $border-radius-3;
+    background-color: $primary-100;
+    border: $border-1 $primary-100;
+    padding: 13px 27px;
+    display: inline-block;
+
+    
+
+    &:hover{
+        text-decoration: none;
+        color: $primary-100;
+        background-color: $white;
+    }
+    &-outline{
+        background-color: transparent;
+        color: $primary-100;
+        &:hover{
+            color: $white;
+            background-color: $primary-100;
+        }
+    }
+}

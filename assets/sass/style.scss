@@ -1,0 +1,23 @@
+// 1 - Utils
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/helpers';
+
+// 2 - Vendors;
+@import 'vendors/bootstrap';
+
+// 3 - Base;
+@import 'base/reset';
+@import 'base/typography';
+
+// 4 - Layout;
+@import 'layout/header';
+@import 'layout/sidebar';
+@import 'layout/footer';
+
+// 5 - Components;
+@import 'components/buttons';
+@import 'components/inputs';
+
+// 5 - Pages;
+// @import 'pages/';

@@ -1,0 +1,19 @@
+input, textarea{
+    border-radius: $border-radius-0;
+    border: 0.5px solid rgba(0, 0, 0, 0.35);
+    line-height: 26px;
+    padding: 7px 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+    &:focus{
+        box-shadow: 0px 1px 12px rgba(229, 122, 122, 0.25);
+        border-color: $primary-100;
+    }
+    &::placeholder{
+          font-size: $size-x-small;
+          font-weight: normal;
+          color: $black;
+          opacity: .33;
+    }
+}
