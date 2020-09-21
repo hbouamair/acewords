@@ -26,3 +26,33 @@
         }
     }
 }
+
+
+.button1{
+    font-family: $primary-SemiBold;
+    color: $primary-100;
+    font-size: $size-xx-small;
+    font-weight: 600;
+    line-height: 17px;
+    border-radius: $border-radius-3;
+    background-color: $white;
+    border: $border-1 $white;
+    padding: 13px 27px;
+    display: inline-block;
+
+
+    &:hover{
+        text-decoration: none;
+        color: $white;
+        background-color: $primary-100;
+    }
+    &-outline{
+        background-color: transparent;
+        color: $white;
+        &:hover{
+            color: $primary-100;
+            background-color: $white;
+        }
+    }
+
+}

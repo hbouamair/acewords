@@ -1,23 +1,96 @@
 
-
-
-.container-fluid{
+.flex{
+    padding-bottom: 81px; 
     background-image: url(/assets/img/backgrounds/footer1.svg);
-       background-size: cover;
+    background-size: cover;
+    background-position:bottom ;
+    padding-left: 135px;
+    padding-right: 136px;
+    display: flex;
+    width:100%;
+    position:absolute;
+    padding-top: 280px;
+      
+    
+       
+      
 
-       width: 100%;
-       background-repeat: no-repeat;
-.selfend{
-    align-self: flex-end;
+.form{
+    margin-bottom: 73px;
+}
+.bold{
+    color:$white;
+}
+.down{
+    align-items: center;
+    text-align: center;
+    width: 609px;
+    padding-bottom: 73px;
 }
 
+.rights{
+    margin-right: 135px;
+}
+.logo{
+    width: 270px;
+    height:40px;
+    margin-bottom: 35.2px;
+    
+}
      
  .button{
      width: 200px ;
      height:42px ;
      text-align: center;
  }
+ .droit{
+     font-family:$primary-regular ;
+     font-size: 13px;
+     font-weight: normal;
+     font-stretch: normal;
+     font-style: normal;
+     color: $white;
 
+ }
+ .signup{
+     margin-bottom: 25px;
+ }
+ .icons{
+     margin-top:30px;
+ }
+ .meduim{
+    box-shadow: 0px 3px 35px rgba(66, 65, 65, 0.1);
+    border-radius: 35px;
+    width: 570px;
+ }
+
+
+ .top{
+
+    margin-bottom: 301.1px;
+     align-self: flex-start;
+ }
+ input{
+    box-shadow: 0px 3px 35px rgba(66, 65, 65, 0.1);
+    border-radius: 35px;
+    width: 609.19px;
+    margin-right: 25.28px;
+    margin-left: 42px;
+    
+
+ }
+ .med{
+     width: 528.19px;
+     margin-left:73px;
+    display: flex;
+    font-style: normal;
+     color:$white;
+     font-size: 24px;
+     margin-bottom: 37.15px;
+     font-stretch: normal;
+     font-style: normal;
+    font-weight: 500;
+ }
          
 
         a{
@@ -27,104 +100,31 @@
             color: $primary-100   ; 
 
         }
-        .first{
-            margin-bottom: 20px;
-        }
-        .img-fluid{
-            margin-bottom:35.2px;
-            width:270px;
-            
-        }
-        .flax-end{
+        .sign {
+            color:$black;
+            margin-bottom: 30px;
+            width: 378px;
 
-            align-self: flex-end;
-        }
-
-
-        .flex-container{
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            height: 200px;
-            width: 100%;
-            display: flex;
-
-        }
-        .flex-start{
-            align-self: flex-start;
-        }
-        .footer-big{
-            margin-bottom: 90.03px;
-            padding: 290px 50px 0px 99px ;
-        }
-
-     .footer-widget {
-            margin-bottom:40px
-           }
-           .med{
-               color: $white;
-               line-height: 34px;
-               display: flex;
-               align-items: center;
-               text-align: center;   
-           }
-           .row{
-               max-width: -250px;
-               max-height: -25px;
-           }
-           .small{
-               color:$white;
-           }
-           .footer-menu ul li  {
-            font-size:15px;
-            line-height:32px;
-            -webkit-transition:.3s;
-            -o-transition:.3s;
-            transition:.3s
-           }
-
-
-
-           ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0
-        }
-        
-
-        .card {
-            padding: 2% 7%
-        }
-        
-        .social>i {
-            padding: 1%;
-            font-size: 15px
-        }
-        
-        .social>i:hover {
-            color: #957bda;
-            cursor: pointer
-        }
-        
-        .policy>div {
-            padding: 4px
-        }
-        
-        .heading {
-            font-family: 'Titillium Web', sans-serif;
-          
         }
         
    @media (max-width:991px) {
     .footer-menu {
      padding-left:0
     }
-   }
-       
-          
+}
+.small{
+    color:$white;
+}
+@media(max-width: 979px){
+    .flex {
+        background-color:$primary-100;
+        background-size: contain;
+        background-position: bottom
+    }
+}
 
 }
-   
+
 
   
   
